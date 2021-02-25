@@ -1,0 +1,23 @@
+{
+  "name": "06.weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production postcss styles/app.css -o src/public/app.css",
+    "dev": "postcss styles/app.css -o src/public/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "postcss-fontpath": "^1.0.0",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-cli": "^8.3.1"
+  }
+}
