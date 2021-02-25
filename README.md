@@ -1,4 +1,4 @@
-"# weatherjs" 
+# weatherjs
 simple geolocation weather app
 
 ## Config
